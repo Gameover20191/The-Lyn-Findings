@@ -29,7 +29,7 @@ def search_for_photoshop_in_directory(directory, found_log_file, not_found_log_f
                         print(error_message)
 
 def main():
-    directory = input("Enter the directory path to search for .bin files: ")
+    directory = input("Enter the directory path to search for Photoshop strings: ")
     found_log_file_path = 'found_log.txt'
     not_found_log_file_path = 'not_found_log.txt'
     
